@@ -1,0 +1,201 @@
+Farm_ID,Crop_Type,Farm_Area_acres,Irrigation_Type,Fertilizer_Used_tons,Pesticide_Used_kg,Yield_tons,Soil_Type,Season,Water_Usage_cubic_meters,Suitability
+FARM_0001,Wheat,11.94,Rain-fed,3.71,13.7,23.98,Loamy,Kharif,8932.58,Suitable
+FARM_0002,Cotton,11.71,Canal,2.58,1.02,32.79,Loamy,Kharif,2068.49,Suitable
+FARM_0003,Sugarcane,29.87,Tube-well,4.07,0.63,207.63,Alluvial,Rabi,8077.61,Suitable
+FARM_0004,Maize,47.9,Tube-well,1.75,2.31,232.62,Clay,Kharif,1057.49,Not Suitable
+FARM_0005,Sugarcane,23.51,Canal,0.71,18.48,117.72,Clay,Zaid,880.12,Not Suitable
+FARM_0006,Sugarcane,4.41,Tube-well,3.34,15.57,33.98,Clay,Zaid,9853.69,Not Suitable
+FARM_0007,Wheat,32.15,Rain-fed,1.89,7.72,78.47,Alluvial,Rabi,2174.12,Suitable
+FARM_0008,Wheat,36.73,Tube-well,0.9,7.9,122.53,Black,Zaid,9896.28,Suitable
+FARM_0009,Sugarcane,12.22,Rain-fed,0.26,6.65,56.37,Sandy,Kharif,2750.63,Not Suitable
+FARM_0010,Sugarcane,25.46,Tube-well,4.43,13.04,108.72,Clay,Zaid,1514.43,Not Suitable
+FARM_0011,Sugarcane,29.64,Rain-fed,4.5,8.29,248.63,Black,Zaid,2271.28,Suitable
+FARM_0012,Sugarcane,43.19,Canal,0.85,3.62,279.13,Alluvial,Kharif,6836.76,Suitable
+FARM_0013,Cotton,13.32,Drip,2.81,18.88,23.03,Alluvial,Zaid,6834.81,Not Suitable
+FARM_0014,Sugarcane,15.38,Rain-fed,0.87,0.56,108.5,Clay,Kharif,7248.71,Not Suitable
+FARM_0015,Sugarcane,15.62,Canal,3.23,12.37,113.4,Sandy,Zaid,1613.11,Not Suitable
+FARM_0016,Sugarcane,16.88,Canal,0.2,18.62,128.15,Black,Zaid,8799.35,Not Suitable
+FARM_0017,Maize,44.02,Canal,4.74,2.17,109.63,Sandy,Kharif,4911.31,Not Suitable
+FARM_0018,Sugarcane,24.29,Tube-well,2.79,5.67,136.78,Sandy,Zaid,8737.09,Not Suitable
+FARM_0019,Rice,16.27,Tube-well,4.98,13.17,74.24,Black,Zaid,4437.19,Suitable
+FARM_0020,Wheat,17.57,Tube-well,2.98,4.99,34.62,Sandy,Kharif,2280.15,Not Suitable
+FARM_0021,Wheat,43.12,Canal,0.45,5.14,99.79,Sandy,Kharif,6722.88,Not Suitable
+FARM_0022,Rice,39.45,Drip,4.06,4.21,167.73,Black,Kharif,1059.62,Suitable
+FARM_0023,Cotton,3.65,Drip,3.3,13.1,10.79,Alluvial,Zaid,700.07,Suitable
+FARM_0024,Wheat,27.28,Tube-well,0.79,4.08,106.36,Sandy,Kharif,4680.02,Not Suitable
+FARM_0025,Wheat,32.96,Canal,2.75,0.79,118.94,Alluvial,Kharif,1023.3,Suitable
+FARM_0026,Rice,24.59,Drip,4.34,18.1,66.58,Sandy,Rabi,1729.91,Not Suitable
+FARM_0027,Cotton,21.73,Drip,4.79,19.91,63.82,Clay,Rabi,5602.11,Not Suitable
+FARM_0028,Rice,48.47,Rain-fed,2.94,11.07,140.84,Sandy,Kharif,7504.96,Not Suitable
+FARM_0029,Sugarcane,48.08,Tube-well,0.49,4.12,328.92,Alluvial,Kharif,5990.85,Not Suitable
+FARM_0030,Rice,13.06,Canal,3.01,12.58,62.7,Alluvial,Zaid,4250.33,Suitable
+FARM_0031,Sugarcane,33.82,Rain-fed,1.64,5.68,226.54,Clay,Kharif,1395.69,Not Suitable
+FARM_0032,Cotton,23.46,Canal,4.99,19.92,45.19,Clay,Kharif,825.28,Not Suitable
+FARM_0033,Maize,44.08,Rain-fed,1.91,3.58,194.78,Sandy,Kharif,8354.08,Not Suitable
+FARM_0034,Sugarcane,41.04,Canal,1.57,13.44,174.2,Black,Zaid,9395.41,Suitable
+FARM_0035,Wheat,14.81,Tube-well,1.13,7.19,56.97,Loamy,Rabi,6906.22,Suitable
+FARM_0036,Sugarcane,5.52,Rain-fed,2.18,5.9,40.3,Alluvial,Kharif,135.1,Not Suitable
+FARM_0037,Maize,35.58,Drip,2.85,2.68,155.87,Sandy,Zaid,9456.0,Not Suitable
+FARM_0038,Rice,29.54,Canal,0.83,2.99,175.36,Black,Rabi,3151.76,Suitable
+FARM_0039,Wheat,13.23,Tube-well,0.6,15.71,36.72,Clay,Zaid,8852.93,Not Suitable
+FARM_0040,Sugarcane,48.83,Tube-well,4.07,17.69,348.43,Sandy,Kharif,345.38,Not Suitable
+FARM_0041,Maize,8.8,Tube-well,3.54,7.96,32.66,Alluvial,Rabi,483.37,Not Suitable
+FARM_0042,Rice,41.21,Rain-fed,4.37,4.85,170.38,Alluvial,Rabi,6634.33,Suitable
+FARM_0043,Maize,32.43,Rain-fed,2.06,19.63,166.54,Loamy,Rabi,5408.54,Suitable
+FARM_0044,Wheat,48.16,Tube-well,1.4,2.61,170.9,Clay,Zaid,4402.18,Not Suitable
+FARM_0045,Maize,45.08,Canal,1.03,1.37,174.03,Alluvial,Rabi,4416.97,Suitable
+FARM_0046,Sugarcane,4.43,Rain-fed,3.35,6.94,33.98,Sandy,Rabi,3207.76,Not Suitable
+FARM_0047,Maize,21.01,Rain-fed,2.07,6.27,74.76,Black,Zaid,1360.15,Suitable
+FARM_0048,Cotton,27.85,Rain-fed,0.1,6.09,74.08,Sandy,Rabi,4355.89,Not Suitable
+FARM_0049,Maize,34.11,Drip,2.6,15.98,154.09,Alluvial,Rabi,9602.34,Suitable
+FARM_0050,Wheat,41.1,Rain-fed,3.78,13.62,93.62,Clay,Kharif,2323.94,Not Suitable
+FARM_0051,Wheat,30.95,Tube-well,3.87,9.38,98.47,Loamy,Rabi,8872.76,Suitable
+FARM_0052,Cotton,8.23,Drip,3.47,17.91,26.92,Alluvial,Kharif,8618.36,Suitable
+FARM_0053,Cotton,26.38,Tube-well,0.35,5.36,63.65,Sandy,Zaid,8498.53,Not Suitable
+FARM_0054,Cotton,31.02,Rain-fed,3.62,10.34,80.52,Black,Rabi,8322.63,Suitable
+FARM_0055,Rice,37.84,Drip,4.22,5.91,168.18,Alluvial,Rabi,7798.98,Suitable
+FARM_0056,Rice,35.96,Drip,1.25,7.05,107.52,Clay,Kharif,8940.97,Not Suitable
+FARM_0057,Rice,8.49,Drip,1.15,8.59,37.16,Sandy,Zaid,3375.73,Not Suitable
+FARM_0058,Wheat,45.34,Drip,2.96,14.06,164.92,Sandy,Rabi,8581.65,Not Suitable
+FARM_0059,Cotton,15.63,Canal,2.01,17.89,40.27,Alluvial,Rabi,8373.71,Suitable
+FARM_0060,Sugarcane,11.75,Tube-well,2.24,1.07,80.6,Black,Rabi,3427.68,Suitable
+FARM_0061,Cotton,49.06,Drip,2.72,18.19,138.64,Sandy,Kharif,5959.74,Not Suitable
+FARM_0062,Wheat,9.9,Tube-well,1.37,6.88,25.84,Alluvial,Rabi,4601.52,Suitable
+FARM_0063,Cotton,41.91,Drip,2.4,15.11,142.65,Clay,Rabi,615.65,Not Suitable
+FARM_0064,Rice,47.53,Canal,1.08,0.9,149.93,Loamy,Kharif,1608.59,Suitable
+FARM_0065,Wheat,35.27,Tube-well,3.86,3.77,126.8,Black,Rabi,6111.75,Suitable
+FARM_0066,Wheat,29.36,Rain-fed,4.65,11.73,79.29,Sandy,Kharif,9089.46,Not Suitable
+FARM_0067,Rice,35.16,Tube-well,1.58,13.84,195.72,Loamy,Kharif,8074.73,Suitable
+FARM_0068,Sugarcane,21.99,Rain-fed,1.92,10.37,168.84,Loamy,Zaid,3478.19,Suitable
+FARM_0069,Cotton,32.14,Drip,4.16,14.29,95.38,Loamy,Rabi,4411.32,Suitable
+FARM_0070,Maize,22.34,Drip,3.68,5.73,107.35,Black,Rabi,8531.96,Suitable
+FARM_0071,Wheat,37.77,Drip,2.89,13.53,112.79,Clay,Kharif,3430.33,Not Suitable
+FARM_0072,Maize,18.39,Drip,1.37,5.95,91.13,Sandy,Kharif,6001.93,Not Suitable
+FARM_0073,Sugarcane,12.83,Tube-well,2.09,11.33,75.51,Loamy,Kharif,2479.21,Suitable
+FARM_0074,Cotton,15.42,Canal,2.08,5.24,34.51,Alluvial,Kharif,6673.2,Suitable
+FARM_0075,Sugarcane,49.83,Rain-fed,2.8,7.36,252.73,Black,Rabi,4592.08,Suitable
+FARM_0076,Rice,6.86,Tube-well,2.73,15.36,23.87,Loamy,Rabi,1932.98,Suitable
+FARM_0077,Cotton,41.8,Rain-fed,1.55,7.54,121.89,Clay,Kharif,3092.45,Not Suitable
+FARM_0078,Rice,28.11,Canal,3.52,2.96,125.57,Clay,Kharif,8697.77,Not Suitable
+FARM_0079,Wheat,24.46,Rain-fed,1.77,19.33,94.61,Black,Rabi,2599.54,Suitable
+FARM_0080,Wheat,4.63,Drip,3.18,1.55,14.59,Loamy,Rabi,1577.06,Suitable
+FARM_0081,Maize,28.35,Tube-well,2.14,12.12,131.49,Loamy,Kharif,6222.34,Suitable
+FARM_0082,Cotton,43.15,Drip,4.95,6.45,117.34,Alluvial,Rabi,6248.17,Suitable
+FARM_0083,Wheat,33.36,Tube-well,0.87,3.89,60.26,Sandy,Rabi,843.14,Not Suitable
+FARM_0084,Cotton,2.6,Drip,1.51,6.01,4.27,Black,Rabi,8610.11,Not Suitable
+FARM_0085,Rice,6.62,Tube-well,1.2,3.41,21.26,Clay,Rabi,2729.76,Not Suitable
+FARM_0086,Wheat,37.7,Rain-fed,2.89,6.13,130.17,Sandy,Zaid,1331.1,Not Suitable
+FARM_0087,Cotton,4.94,Drip,0.3,8.92,9.88,Clay,Rabi,3290.98,Not Suitable
+FARM_0088,Wheat,41.25,Canal,2.92,15.38,125.63,Sandy,Zaid,1834.39,Not Suitable
+FARM_0089,Cotton,22.36,Tube-well,4.09,19.4,51.8,Clay,Zaid,4753.1,Not Suitable
+FARM_0090,Maize,21.17,Tube-well,2.53,13.42,97.21,Loamy,Rabi,4064.48,Suitable
+FARM_0091,Wheat,13.37,Canal,0.67,15.56,50.54,Alluvial,Rabi,8662.61,Suitable
+FARM_0092,Wheat,3.66,Drip,2.64,12.64,10.47,Black,Rabi,5035.08,Suitable
+FARM_0093,Wheat,7.42,Rain-fed,1.51,17.68,13.87,Sandy,Zaid,4898.65,Not Suitable
+FARM_0094,Sugarcane,27.99,Tube-well,2.81,2.32,223.42,Sandy,Rabi,9923.35,Not Suitable
+FARM_0095,Cotton,46.7,Tube-well,1.53,14.26,115.12,Loamy,Rabi,4213.35,Suitable
+FARM_0096,Cotton,8.09,Drip,1.03,12.19,14.34,Sandy,Zaid,7488.3,Not Suitable
+FARM_0097,Wheat,46.78,Drip,2.59,16.5,117.72,Clay,Rabi,2900.11,Not Suitable
+FARM_0098,Sugarcane,22.88,Drip,2.47,6.98,123.79,Black,Kharif,7652.44,Suitable
+FARM_0099,Maize,19.77,Tube-well,4.29,8.51,73.5,Sandy,Zaid,3249.95,Not Suitable
+FARM_0100,Cotton,48.28,Tube-well,0.72,19.32,82.11,Alluvial,Rabi,3386.75,Not Suitable
+FARM_0101,Cotton,36.4,Drip,2.11,13.27,88.78,Loamy,Kharif,1628.18,Suitable
+FARM_0102,Maize,4.94,Drip,1.71,13.65,25.59,Clay,Zaid,5382.86,Not Suitable
+FARM_0103,Cotton,4.35,Canal,3.19,18.46,13.02,Black,Zaid,9974.52,Suitable
+FARM_0104,Cotton,9.15,Canal,1.57,1.06,14.75,Loamy,Rabi,3311.31,Not Suitable
+FARM_0105,Maize,12.97,Drip,2.12,13.8,36.47,Clay,Kharif,1882.56,Not Suitable
+FARM_0106,Sugarcane,45.73,Tube-well,0.8,9.49,220.67,Alluvial,Rabi,2614.38,Suitable
+FARM_0107,Wheat,27.78,Rain-fed,0.46,18.93,69.95,Alluvial,Zaid,9877.75,Not Suitable
+FARM_0108,Cotton,10.76,Drip,1.98,9.92,28.45,Clay,Rabi,2448.34,Not Suitable
+FARM_0109,Sugarcane,48.92,Rain-fed,3.33,5.85,337.15,Clay,Kharif,5702.7,Not Suitable
+FARM_0110,Wheat,39.01,Drip,1.23,16.14,88.02,Black,Rabi,2268.14,Suitable
+FARM_0111,Maize,32.67,Canal,1.61,9.1,147.22,Sandy,Zaid,5837.78,Not Suitable
+FARM_0112,Wheat,21.36,Rain-fed,1.08,15.84,57.2,Clay,Zaid,8776.96,Not Suitable
+FARM_0113,Sugarcane,45.79,Tube-well,4.73,19.36,356.15,Clay,Rabi,3021.9,Not Suitable
+FARM_0114,Wheat,37.95,Canal,1.21,13.69,104.51,Alluvial,Kharif,6776.62,Suitable
+FARM_0115,Sugarcane,1.68,Canal,2.73,9.37,11.47,Clay,Rabi,6761.0,Not Suitable
+FARM_0116,Sugarcane,34.07,Rain-fed,2.41,12.58,176.29,Alluvial,Kharif,9437.37,Suitable
+FARM_0117,Sugarcane,41.37,Canal,4.56,6.39,176.69,Sandy,Zaid,4142.13,Not Suitable
+FARM_0118,Wheat,5.76,Drip,4.45,3.15,19.64,Clay,Kharif,4591.07,Not Suitable
+FARM_0119,Sugarcane,33.09,Tube-well,4.19,12.51,163.56,Alluvial,Rabi,9396.63,Suitable
+FARM_0120,Maize,47.58,Drip,4.29,2.44,187.24,Sandy,Rabi,6888.23,Not Suitable
+FARM_0121,Maize,10.3,Drip,0.7,17.04,44.24,Loamy,Rabi,4601.7,Suitable
+FARM_0122,Sugarcane,12.93,Canal,0.72,11.51,94.04,Loamy,Rabi,779.24,Suitable
+FARM_0123,Rice,17.1,Tube-well,0.82,18.06,99.01,Black,Kharif,128.07,Not Suitable
+FARM_0124,Rice,6.39,Rain-fed,4.35,3.07,35.39,Sandy,Kharif,3646.6,Not Suitable
+FARM_0125,Sugarcane,14.0,Canal,0.72,8.71,54.67,Clay,Kharif,1225.13,Not Suitable
+FARM_0126,Cotton,25.69,Canal,4.73,1.35,83.08,Clay,Rabi,7853.95,Not Suitable
+FARM_0127,Sugarcane,48.24,Drip,0.4,9.84,332.53,Clay,Zaid,4076.01,Not Suitable
+FARM_0128,Cotton,16.78,Canal,0.83,2.96,44.81,Alluvial,Kharif,6280.74,Suitable
+FARM_0129,Maize,25.77,Rain-fed,2.21,15.97,110.05,Alluvial,Rabi,1232.7,Suitable
+FARM_0130,Sugarcane,44.52,Drip,2.13,16.63,316.19,Sandy,Rabi,4047.43,Not Suitable
+FARM_0131,Maize,13.49,Rain-fed,4.77,13.89,34.5,Alluvial,Zaid,4795.25,Suitable
+FARM_0132,Wheat,37.48,Drip,1.93,3.04,153.51,Loamy,Kharif,693.81,Suitable
+FARM_0133,Sugarcane,18.33,Canal,3.36,15.13,129.43,Clay,Rabi,8694.11,Not Suitable
+FARM_0134,Maize,6.08,Rain-fed,2.59,3.52,29.52,Black,Rabi,4873.68,Suitable
+FARM_0135,Maize,38.37,Rain-fed,2.91,16.24,201.16,Black,Kharif,8467.04,Suitable
+FARM_0136,Sugarcane,46.53,Canal,4.16,5.72,324.45,Black,Zaid,1886.12,Suitable
+FARM_0137,Maize,9.89,Rain-fed,0.8,13.32,44.83,Clay,Kharif,788.9,Not Suitable
+FARM_0138,Wheat,21.57,Tube-well,1.77,7.72,79.04,Loamy,Rabi,7243.8,Suitable
+FARM_0139,Sugarcane,8.62,Canal,3.8,1.47,49.37,Black,Kharif,907.66,Suitable
+FARM_0140,Cotton,14.39,Drip,3.8,2.72,29.74,Alluvial,Rabi,4356.14,Suitable
+FARM_0141,Sugarcane,11.81,Rain-fed,4.92,1.57,96.1,Alluvial,Kharif,2123.79,Suitable
+FARM_0142,Rice,6.88,Rain-fed,2.54,8.9,31.77,Clay,Rabi,1378.94,Not Suitable
+FARM_0143,Rice,20.46,Rain-fed,3.74,9.01,60.98,Black,Kharif,4651.57,Suitable
+FARM_0144,Maize,20.82,Drip,3.24,6.15,108.62,Black,Zaid,4109.82,Suitable
+FARM_0145,Rice,46.07,Drip,0.53,16.97,222.05,Black,Zaid,2508.83,Suitable
+FARM_0146,Sugarcane,37.54,Drip,1.19,15.69,249.25,Loamy,Rabi,856.16,Suitable
+FARM_0147,Sugarcane,18.2,Tube-well,4.8,13.09,74.5,Black,Rabi,1562.13,Suitable
+FARM_0148,Maize,8.49,Tube-well,3.82,1.97,35.56,Sandy,Zaid,9517.79,Not Suitable
+FARM_0149,Cotton,46.28,Drip,2.87,12.89,149.41,Black,Zaid,6282.77,Suitable
+FARM_0150,Maize,23.98,Drip,3.19,16.03,80.33,Sandy,Kharif,5955.06,Not Suitable
+FARM_0151,Wheat,2.84,Drip,1.91,6.1,11.77,Clay,Rabi,6482.2,Not Suitable
+FARM_0152,Wheat,29.44,Drip,4.78,14.91,117.22,Black,Rabi,506.12,Suitable
+FARM_0153,Sugarcane,24.31,Rain-fed,0.84,1.71,192.43,Sandy,Zaid,1124.67,Not Suitable
+FARM_0154,Maize,13.14,Tube-well,2.25,9.07,36.3,Loamy,Kharif,5275.21,Suitable
+FARM_0155,Maize,38.95,Drip,3.43,1.52,128.43,Clay,Rabi,6345.78,Not Suitable
+FARM_0156,Maize,13.35,Drip,4.27,19.31,36.54,Loamy,Rabi,6066.74,Suitable
+FARM_0157,Wheat,16.2,Tube-well,3.31,13.41,56.72,Black,Rabi,1376.62,Suitable
+FARM_0158,Wheat,39.79,Drip,4.08,13.57,142.17,Clay,Zaid,8306.69,Not Suitable
+FARM_0159,Sugarcane,18.73,Drip,1.88,4.02,152.63,Loamy,Zaid,2220.51,Suitable
+FARM_0160,Cotton,8.59,Tube-well,1.55,15.87,22.16,Sandy,Kharif,5126.13,Not Suitable
+FARM_0161,Sugarcane,7.42,Rain-fed,1.95,3.66,54.18,Loamy,Zaid,8330.32,Suitable
+FARM_0162,Rice,18.85,Canal,3.63,19.41,101.95,Alluvial,Rabi,6144.89,Suitable
+FARM_0163,Cotton,48.31,Tube-well,3.94,18.13,138.0,Sandy,Rabi,2020.76,Not Suitable
+FARM_0164,Sugarcane,39.13,Drip,2.56,8.66,178.38,Alluvial,Rabi,1704.38,Suitable
+FARM_0165,Sugarcane,32.42,Rain-fed,4.38,11.31,248.35,Sandy,Kharif,1115.64,Not Suitable
+FARM_0166,Wheat,14.37,Canal,4.54,3.37,58.51,Clay,Kharif,4430.98,Not Suitable
+FARM_0167,Rice,21.33,Rain-fed,2.04,7.79,63.86,Alluvial,Kharif,3923.04,Suitable
+FARM_0168,Rice,42.12,Rain-fed,3.28,15.93,157.22,Loamy,Kharif,1462.24,Suitable
+FARM_0169,Cotton,31.15,Drip,4.54,0.87,56.04,Sandy,Rabi,2234.98,Not Suitable
+FARM_0170,Sugarcane,39.03,Drip,1.26,2.88,260.21,Black,Kharif,2460.55,Suitable
+FARM_0171,Sugarcane,42.0,Canal,2.55,10.95,267.13,Alluvial,Kharif,6356.35,Suitable
+FARM_0172,Rice,31.13,Drip,1.28,8.62,93.65,Clay,Kharif,6677.28,Not Suitable
+FARM_0173,Maize,43.79,Canal,0.31,8.04,199.33,Loamy,Rabi,3795.69,Not Suitable
+FARM_0174,Maize,36.91,Rain-fed,3.18,15.54,121.47,Loamy,Kharif,7378.35,Suitable
+FARM_0175,Wheat,9.58,Rain-fed,3.92,9.56,31.77,Clay,Zaid,6984.35,Not Suitable
+FARM_0176,Rice,15.38,Drip,0.31,4.39,93.2,Loamy,Kharif,514.87,Not Suitable
+FARM_0177,Sugarcane,2.79,Drip,3.27,6.08,10.68,Alluvial,Rabi,8635.17,Suitable
+FARM_0178,Maize,22.41,Canal,2.06,9.07,74.19,Clay,Rabi,9569.14,Not Suitable
+FARM_0179,Rice,46.29,Drip,2.64,16.12,138.14,Alluvial,Rabi,7298.11,Suitable
+FARM_0180,Sugarcane,6.03,Rain-fed,1.71,6.26,42.48,Sandy,Rabi,4514.57,Not Suitable
+FARM_0181,Rice,3.08,Rain-fed,4.36,7.37,11.36,Alluvial,Rabi,9981.69,Suitable
+FARM_0182,Wheat,26.14,Drip,3.77,3.62,100.29,Loamy,Rabi,408.29,Not Suitable
+FARM_0183,Cotton,12.56,Tube-well,3.26,7.56,19.65,Loamy,Kharif,9499.72,Not Suitable
+FARM_0184,Rice,22.75,Rain-fed,0.48,3.19,87.17,Alluvial,Rabi,3732.8,Not Suitable
+FARM_0185,Maize,37.05,Canal,2.55,8.05,113.96,Sandy,Kharif,5660.56,Not Suitable
+FARM_0186,Maize,14.99,Tube-well,4.59,10.08,73.04,Alluvial,Zaid,1314.11,Suitable
+FARM_0187,Cotton,40.72,Drip,4.84,19.74,118.86,Sandy,Kharif,6711.61,Not Suitable
+FARM_0188,Sugarcane,42.72,Rain-fed,3.59,18.58,316.54,Black,Rabi,6413.23,Suitable
+FARM_0189,Sugarcane,39.81,Canal,1.26,10.13,252.67,Sandy,Kharif,3672.88,Not Suitable
+FARM_0190,Cotton,44.33,Tube-well,0.42,8.26,108.93,Black,Zaid,7197.64,Not Suitable
+FARM_0191,Cotton,48.65,Canal,3.25,9.27,106.5,Alluvial,Kharif,6833.08,Suitable
+FARM_0192,Sugarcane,22.2,Tube-well,4.56,1.58,96.23,Black,Kharif,1329.2,Suitable
+FARM_0193,Rice,12.05,Rain-fed,4.74,10.62,35.96,Sandy,Zaid,2912.08,Not Suitable
+FARM_0194,Rice,31.63,Rain-fed,3.11,2.32,152.79,Black,Kharif,6445.78,Suitable
+FARM_0195,Sugarcane,31.6,Tube-well,4.52,7.08,120.01,Sandy,Zaid,9246.9,Not Suitable
+FARM_0196,Wheat,38.78,Canal,1.4,4.61,127.33,Loamy,Zaid,5764.16,Suitable
+FARM_0197,Wheat,47.88,Rain-fed,2.47,16.19,120.36,Alluvial,Zaid,6881.41,Suitable
+FARM_0198,Wheat,21.37,Tube-well,2.38,7.13,82.65,Loamy,Rabi,1522.32,Suitable
+FARM_0199,Maize,38.27,Drip,2.62,2.57,101.51,Clay,Kharif,2493.2,Not Suitable
+FARM_0200,Cotton,3.48,Tube-well,4.73,17.35,11.92,Sandy,Kharif,4239.53,Not Suitable

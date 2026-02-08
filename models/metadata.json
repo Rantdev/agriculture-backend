@@ -1,0 +1,20 @@
+{
+  "input_csv": "data\\agriculture_suitability.csv",
+  "suitability_column": "Suitability",
+  "yield_column": "Yield_tons",
+  "numeric_features": [
+    "Farm_Area_acres",
+    "Fertilizer_Used_tons",
+    "Pesticide_Used_kg",
+    "Water_Usage_cubic_meters"
+  ],
+  "categorical_features": [
+    "Crop_Type",
+    "Irrigation_Type",
+    "Soil_Type",
+    "Season"
+  ],
+  "classification_accuracy": 0.925,
+  "regression_rmse": 31.5048299306402,
+  "regression_r2": 0.8210735030401268
+}
