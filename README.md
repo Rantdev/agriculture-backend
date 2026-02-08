@@ -66,7 +66,7 @@ python app.py
 gunicorn --workers 4 --bind 0.0.0.0:8000 app:app
 ```
 
-The API will be available at `http://localhost:8000`
+The API will be available at `https://agriculture-backend-o46d.onrender.com`
 
 ## API Endpoints
 
@@ -130,7 +130,7 @@ Edit `config.py` to customize:
 ### Yield Prediction
 
 ```bash
-curl -X POST http://localhost:8000/api/predict-yield \
+curl -X POST https://agriculture-backend-o46d.onrender.com/api/predict-yield \
   -H "Content-Type: application/json" \
   -d '{
     "cropType": "Wheat",
@@ -147,7 +147,7 @@ curl -X POST http://localhost:8000/api/predict-yield \
 ### Crop Recommendations
 
 ```bash
-curl -X POST http://localhost:8000/api/recommendations \
+curl -X POST https://agriculture-backend-o46d.onrender.com/api/recommendations \
   -H "Content-Type: application/json" \
   -d '{
     "location": "Punjab",
