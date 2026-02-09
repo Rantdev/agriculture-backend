@@ -236,12 +236,34 @@ def chat():
 # ---------------------------
 # Authentication endpoints (fallbacks if DB missing)
 # ---------------------------
-@app.route('/api/auth/login', methods=['POST'])
+@app.route('/api/test', methods=['GET', 'POST', 'OPTIONS'])
+def test_endpoint():
+    """Simple test endpoint to verify backend is working."""
+    return jsonify({
+        'status': 'ok',
+        'message': 'Backend is working',
+        'method': request.method,
+        'timestamp': datetime.utcnow().isoformat()
+    }), 200
+
+@app.route('/api/auth/login', methods=['POST', 'OPTIONS'])
 def login():
+    # Handle CORS preflight
+    if request.method == 'OPTIONS':
+        return '', 204
+    
     try:
+        # Debug logging
+        logger.info(f"Login request received - Content-Type: {request.content_type}")
+        logger.info(f"Request headers: {dict(request.headers)}")
+        
         data = request.get_json(force=True) or {}
+        logger.info(f"Parsed JSON data: {data}")
+        
         username = data.get('username', '').strip()
         password = data.get('password', '').strip()
+        
+        logger.info(f"Login attempt - username: {username}, has_password: {bool(password)}")
         
         if not username or not password:
             return jsonify({'success': False, 'message': 'Username and password required'}), 400
@@ -321,10 +343,18 @@ def login():
         
         return jsonify({'success': False, 'message': f'Login failed: {str(e)}'}), 500
 
-@app.route('/api/auth/register', methods=['POST'])
+@app.route('/api/auth/register', methods=['POST', 'OPTIONS'])
 def register():
+    # Handle CORS preflight
+    if request.method == 'OPTIONS':
+        return '', 204
+    
     try:
+        logger.info(f"Register request received - Content-Type: {request.content_type}")
+        
         data = request.get_json(force=True) or {}
+        logger.info(f"Parsed JSON data keys: {list(data.keys())}")
+        
         username = data.get('username', '').strip()
         password = data.get('password', '').strip()
         email = data.get('email', '').strip()
