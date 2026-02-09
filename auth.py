@@ -62,23 +62,22 @@ def signup():
     Register a new user.
     Expected JSON: { "username": "...", "password": "...", "email": "..." }
     """
+    data = request.get_json()
+    username = data.get('username', '').strip()
+    password = data.get('password', '').strip()
+    email = data.get('email', '').strip()
+
+    # Validation
+    if not username or len(username) < 3:
+        return jsonify({'error': 'Username must be at least 3 characters'}), 400
+    if not password or len(password) < 6:
+        return jsonify({'error': 'Password must be at least 6 characters'}), 400
+    if not email or '@' not in email:
+        return jsonify({'error': 'Valid email required'}), 400
+
+    # Try real database first
     try:
-        data = request.get_json()
-        username = data.get('username', '').strip()
-        password = data.get('password', '').strip()
-        email = data.get('email', '').strip()
-
-        # Validation
-        if not username or len(username) < 3:
-            return jsonify({'error': 'Username must be at least 3 characters'}), 400
-        if not password or len(password) < 6:
-            return jsonify({'error': 'Password must be at least 6 characters'}), 400
-        if not email or '@' not in email:
-            return jsonify({'error': 'Valid email required'}), 400
-
-        # Import database module
         from database import get_db_connection
-
         conn = get_db_connection()
         cursor = conn.cursor()
 
@@ -115,42 +114,24 @@ def signup():
             'user': {'user_id': user_id, 'username': username, 'email': email}
         }), 201
 
-    except Exception as e:
-        # Fallback to mock registration for testing when database is unavailable
+    except Exception as db_error:
+        # Database unavailable - use mock registration
         logger = __import__('logging').getLogger(__name__)
-        logger.error(f"Database error during registration: {str(e)}")
+        logger.warning(f"Database unavailable, using mock registration: {str(db_error)}")
         
-        try:
-            data = request.get_json()
-            username = data.get('username', '').strip()
-            password = data.get('password', '').strip()
-            email = data.get('email', '').strip()
-            
-            # Validation
-            if not username or len(username) < 3:
-                return jsonify({'error': 'Username must be at least 3 characters'}), 400
-            if not password or len(password) < 6:
-                return jsonify({'error': 'Password must be at least 6 characters'}), 400
-            if not email or '@' not in email:
-                return jsonify({'error': 'Valid email required'}), 400
-            
-            # Create token for mock user
-            token = create_jwt_token(f'mock_{username}', username)
-            
-            return jsonify({
-                'message': 'User registered successfully (mock mode - DB unavailable)',
-                'token': token,
-                'user': {
-                    'user_id': f'mock_{username}',
-                    'username': username,
-                    'email': email,
-                    'mode': 'mock'
-                }
-            }), 201
-        except:
-            pass
+        # Create token for mock user
+        token = create_jwt_token(f'mock_{username}', username)
         
-        return jsonify({'error': 'Registration failed. Database unavailable.'}), 500
+        return jsonify({
+            'message': 'User registered successfully (Mock mode - DB unavailable)',
+            'token': token,
+            'user': {
+                'user_id': f'mock_{username}',
+                'username': username,
+                'email': email,
+                'mode': 'mock'
+            }
+        }), 201
 
 @auth_bp.route('/login', methods=['POST'])
 def login():
@@ -158,16 +139,24 @@ def login():
     Login user.
     Expected JSON: { "username": "...", "password": "..." }
     """
+    data = request.get_json()
+    username = data.get('username', '').strip()
+    password = data.get('password', '').strip()
+
+    if not username or not password:
+        return jsonify({'error': 'Username and password required'}), 400
+
+    # Mock credentials for testing (use when database is unavailable)
+    MOCK_USERS = {
+        'testuser': 'password123',
+        'demo': 'demo123',
+        'admin': 'admin123',
+        'farmer': 'farmer123'
+    }
+    
+    # Try real database first
     try:
-        data = request.get_json()
-        username = data.get('username', '').strip()
-        password = data.get('password', '').strip()
-
-        if not username or not password:
-            return jsonify({'error': 'Username and password required'}), 400
-
         from database import get_db_connection
-
         conn = get_db_connection()
         cursor = conn.cursor()
 
@@ -209,40 +198,27 @@ def login():
             }
         }), 200
 
-    except Exception as e:
-        # Fallback to mock authentication for testing when database is unavailable
+    except Exception as db_error:
+        # Database unavailable - use mock authentication
         logger = __import__('logging').getLogger(__name__)
-        logger.error(f"Database error during login: {str(e)}")
+        logger.warning(f"Database unavailable, using mock auth: {str(db_error)}")
         
-        # Mock credentials for testing (remove in production once DB is set up)
-        MOCK_USERS = {
-            'testuser': 'password123',
-            'demo': 'demo123',
-            'admin': 'admin123'
-        }
-        
-        # Even in mock mode, we need to get the request data again
-        try:
-            request_data = request.get_json()
-            username = request_data.get('username', '').strip()
-            password = request_data.get('password', '').strip()
-            
-            if username in MOCK_USERS and MOCK_USERS[username] == password:
-                token = create_jwt_token(f'mock_{username}', username)
-                return jsonify({
-                    'message': 'Login successful (mock mode - DB unavailable)',
-                    'token': token,
-                    'user': {
-                        'user_id': f'mock_{username}',
-                        'username': username,
-                        'email': f'{username}@test.com',
-                        'mode': 'mock'
-                    }
-                }), 200
-        except:
-            pass
-        
-        return jsonify({'error': f'Invalid credentials or database unavailable. Try testuser/password123'}), 401
+        if username in MOCK_USERS and MOCK_USERS[username] == password:
+            token = create_jwt_token(f'mock_{username}', username)
+            return jsonify({
+                'message': 'Login successful (Mock mode - DB unavailable)',
+                'token': token,
+                'user': {
+                    'user_id': f'mock_{username}',
+                    'username': username,
+                    'email': f'{username}@farm.test',
+                    'mode': 'mock'
+                }
+            }), 200
+        else:
+            return jsonify({
+                'error': f'Invalid credentials. Use testuser/password123 for testing.'
+            }), 401
 
 @auth_bp.route('/me', methods=['GET'])
 @token_required
